@@ -1,0 +1,10 @@
+export { default as About } from "./about/About";
+export { default as Aplications } from "./aplications/Aplications";
+export { default as ContactUs } from "./contactUs/ContactUs";
+export { default as Footer } from "./footer/Footer";
+export { default as Header } from "./header/Header";
+export { default as ScrollUp } from "./scrollUp/ScrollUp";
+export { default as Security } from "./security/Security";
+export { default as Services } from "./services/Services";
+export { default as Hero } from "./hero/Hero";
+export { default as Sidebar } from "./sidebar/Sidebar";

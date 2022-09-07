@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--lightBg);
+  transition: all 1s;
+  --lightBtn: #fe016c;
+  --lightBg: #fff;
+  --lightColor: #232323;
+  --lightBgSidebar: rgb(240, 240, 240);
+  scroll-behavior: smooth;
+}
+
+html[data-theme="dark"] {
+  background: var(--lightBg);
+  --lightBtn: #ffbd07;
+  --lightBg: #232323;
+  --lightBgSidebar: rgb(44, 44, 44);
+  --lightColor: #fff;
+}
+
+body {
+  font-family: var(--body-font);
+  background-color: var(--body-color) !important;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+  line-height: 1.5;
+}

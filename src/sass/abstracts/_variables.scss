@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+:root {
+  --header-height: 3rem;
+
+  /*========== Colors ==========*/
+  --body-color: hsl(var(--hue), 0%, 100%);
+  --container-color: #fff;
+  --first-color-alt: hsl(var(--hue), var(--sat), 53%);
+  --first-color-light: hsl(var(--hue), var(--sat), 85%);
+  --first-color-lighten: hsl(var(--hue), var(--sat), 80%);
+  --first-color: hsl(var(--hue), 55%, 60%);
+  --hue: 197;
+  --sat: 98%;
+  --scroll-bar-color: hsl(var(--hue), 4%, 85%);
+  --scroll-thumb-color: hsl(var(--hue), 4%, 75%);
+  --text-color-light: hsl(var(--hue), 4%, 65%);
+  --text-color: hsl(var(--hue), 4%, 35%);
+  --title-color: hsl(var(--hue), 4%, 15%);
+
+  /*========== Font and typography ==========*/
+  --biggest-font-size: 2rem;
+  --body-font: "Poppins", sans-serif;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+
+  // Responsive typography
+  @media screen and (min-width: 968px) {
+    --biggest-font-size: 4rem;
+    --h2-font-size: 1.75rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
+  }
+
+  /*========== Font weight ==========*/
+  --font-bold: 700;
+  --font-semi-bold: 600;
+
+  /*========== Margenes ==========*/
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1-5: 1.5rem;
+  --mb-1: 1rem;
+  --mb-2: 2rem;
+
+  /*========== z index ==========*/
+  --z-fixed: 100;
+  --z-tooltip: 10;
+}
